@@ -1,0 +1,61 @@
+/*header/nav bar*/
+#logo {
+    background: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbar {
+    background: lightsteelblue;
+}
+@media only screen and (max-width: 767px){
+    .navar-header {
+        background-color: teal;
+    }
+}
+/*main sections*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: purple;
+}
+
+/*footer*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: tomato;
+    margin-top: 10px;
+    
+}
+/*about me/index*/
+#index-image {
+    float: left;
+    width: 200px;
+    margin: 0 15px 10px 0;
+}
+
+/*port*/
+.proj-image {
+    margin: 20px auto;
+
+}
+
+/*contact*/
+.form-boxes{
+    min-width: 100%;
+    max-width: 100%;
+}
+.submit-btn{
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(119, 20, 34);
+    background-color: lightsteelblue;
+
+}
